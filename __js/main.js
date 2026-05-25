@@ -1,0 +1,1 @@
+var t=document.getElementById("jump-ahead-button"),s,i;function o(){t&&(t.classList.add("is-visible"),clearTimeout(s),s=setTimeout(()=>{t.classList.remove("is-visible")},3e3))}function l(){t&&(t.classList.remove("is-visible"),clearTimeout(s))}window.addEventListener("scroll",()=>{let e=window.scrollY;e<i&&e>1e3?o():l(),i=e},{passive:!0});
