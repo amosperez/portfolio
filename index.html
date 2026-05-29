@@ -12,42 +12,42 @@
       href="https://cdn.jsdelivr.net/npm/katex@0.16.22/dist/katex.min.css"
     />
   </head>
+  <!-- <body data-theme="dark"> -->
   <body>
-    <header class="container hero">
+    <header class="container intro">
       <div class="column">
-        <h1 class="hero__title">Amos Perez</h1>
-        <p class="hero__paragraph">
+        <h1 class="intro__heading">Amos Perez</h1>
+        <p class="intro__description">
           Software Engineering &CenterDot; System Design &CenterDot; AI
         </p>
-        <div class="row"><a href="#notes" class="link">Notes</a></div>
+        <div class="row intro__links">
+          <a href="#notes" class="link"
+            ><span class="text-main-accent-1">|</span> Notes</a
+          >
+        </div>
       </div>
     </header>
 
     <main class="main">
-      <section id="notes" class="section container">
-        <div class="">
-          <header class="section__head row">
-            <h2 class="main__heading">
-              <span class="span__accent">|</span> Notes
-            </h2>
-          </header>
+      <section id="notes" class="container">
+        <div>
+          <h2><span class="text-main-accent-2">|</span> Notes</h2>
+          <ul class="preview__list">
+            <li class="preview">
+              <a href="/notes/git/" class=""
+                ><h3 class="preview__heading">Git</h3>
 
-          <ul class="entry__list">
-            <li class="">
-              <a href="/notes/git/" class="entry"
-                ><h3 class="entry__title">Git</h3>
-
-                <p class="entry__summary">
+                <p class="preview__summary">
                   A distributed version control software system that is capable
                   of managing versions of source code or data.
                 </p></a
               >
             </li>
-            <li class="">
-              <a href="/notes/theory-of-computation/" class="entry"
-                ><h3 class="entry__title">Theory of Computation</h3>
+            <li class="preview">
+              <a href="/notes/theory-of-computation/" class=""
+                ><h3 class="preview__heading">Theory of Computation</h3>
 
-                <p class="entry__summary">
+                <p class="preview__summary">
                   What are the fundamental capabilities and limitations of
                   computers?
                 </p></a
@@ -57,9 +57,9 @@
         </div>
       </section>
     </main>
-    <footer class="section footer">
+    <footer class="footer">
       <div class="container column row">
-        <p class="text-muted">© Copyright 2026 Amos Perez</p>
+        <p class="">© Copyright 2026 Amos Perez</p>
       </div>
     </footer>
 
